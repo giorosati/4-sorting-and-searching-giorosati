@@ -1,7 +1,7 @@
 # MODIFY ME TO IMPLEMENT YOUR SOLUTION
 # TO PROBLEM 2: Recursive Binary Search
 #
-# NAME:         FIXME
+# NAME:         Giovanni Rosati
 # ASSIGNMENT:   Project 4: Sorting & Searching
 
 # Write a recursive function `search` that

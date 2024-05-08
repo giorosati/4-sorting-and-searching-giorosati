@@ -1,7 +1,7 @@
 # MODIFY ME TO IMPLEMENT YOUR SOLUTION
 # TO PROBLEM 3: Iterative Sort - O(n^2)
 #
-# NAME:         FIXME
+# NAME:         Giovanni Rosati
 # ASSIGNMENT:   Project 4: Sorting & Searching
 
 # Write an O(n^2) sort function `iterative_sort` that

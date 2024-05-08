@@ -1,7 +1,7 @@
 # MODIFY ME TO IMPLEMENT YOUR SOLUTION
 # TO PROBLEM 1: Iterative Linear Search
 #
-# NAME:         FIXME
+# NAME:         Giovanni Rosati
 # ASSIGNMENT:   Project 4: Sorting & Searching
 
 # Write a function `linear_search` that takes an

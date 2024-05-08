@@ -1,7 +1,7 @@
 # MODIFY ME TO IMPLEMENT YOUR SOLUTION
 # TO PROBLEM 4: Recursive Sort < O(n^2)
 #
-# NAME:         FIXME
+# NAME:         Giovanni Rosati
 # ASSIGNMENT:   Project 4: Sorting & Searching
 
 # Write a less than O(n^2) sort function `recursive_sort`
