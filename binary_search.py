@@ -14,9 +14,22 @@ def binary_search(array, num):
     return search(array, num, 0, len(array) - 1)
 
 def search(array, num, min, max):
-    # FIXME
-    return -1
-
+    mid = min + (max - min) //2
+    if min > max:
+        return -1
+    elif num < array[mid]:
+        return search(array, num, min, mid-1)
+    elif num > array[mid]:
+        return search(array, num, mid+1, max)
+    else:
+        # check if there is an earlier occurance of the same value
+        return step_back(array, num, mid)
+        return mid
+def step_back(array, num, index):
+    if array[index-1] != num:
+        return index
+    else:
+        return step_back(array, num, index-1)
 def main():
     a = [i for i in range(-1, 10, 2)]
     print(a)
