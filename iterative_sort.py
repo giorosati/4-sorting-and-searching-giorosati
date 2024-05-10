@@ -14,8 +14,8 @@ def iterative_sort(array):
         min_index = i
         for j in range(i+1, len(array)):
             if array[j] < array[min_index]:
-                min_index = j
-        if min_index != i:
+                min_index = j   # lower value found, update index of minimum value
+        if min_index != i:      # swap values 
             temp_value = array[i]
             array[i] = array[min_index]
             array[min_index] = temp_value

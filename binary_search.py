@@ -22,7 +22,7 @@ def search(array, num, min, max):
     elif num > array[mid]:
         return search(array, num, mid+1, max)
     else:
-        # check if there is an earlier occurance of the valu found
+        # check if there is an earlier occurance of the value found
         return step_back(array, num, mid)
         return mid
 def step_back(array, num, index):
