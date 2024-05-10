@@ -9,7 +9,16 @@
 # and returns a sorted array using bubble sort, insertion
 # sort, or selection sort using loops, rather than recursion.
 def iterative_sort(array):
-    # FIXME
+    # selection sort
+    for i in range(len(array)):
+        min_index = i
+        for j in range(i+1, len(array)):
+            if array[j] < array[min_index]:
+                min_index = j
+        if min_index != i:
+            temp_value = array[i]
+            array[i] = array[min_index]
+            array[min_index] = temp_value
     return array
 
 def main():
