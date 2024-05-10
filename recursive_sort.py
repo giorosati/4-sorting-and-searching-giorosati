@@ -9,8 +9,15 @@
 # and returns a sorted array using merge sort or quick
 # sort using recursion, rather than loops.
 def recursive_sort(array):
-    # FIXME
-    return array
+    # quick sort
+    if len(array) < 2:  # arrays of length < 2 are already sorted
+        return array
+    pivot = array[0]    # choose initial pivot point
+    lower_area = [i for i in array[1:] if i <= pivot]   # items <= value at pivot
+    higher_area = [i for i in array[1:] if i > pivot]   # items > value at pivot
+
+    # recursive call to sort smaller and smaller arrays
+    return recursive_sort(lower_area) + [pivot] + recursive_sort(higher_area)
 
 
 def main():
